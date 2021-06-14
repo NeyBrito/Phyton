@@ -1,0 +1,7 @@
+nome = str(input('Digite um nome:'))
+frase = (nome)
+#print(frase.lower())
+#print(frase.upper())
+#print(len(frase.strip()))
+dividido = frase.split()
+print(len(dividido[0]))
